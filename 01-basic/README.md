@@ -24,7 +24,7 @@ kubectl apply -f web/node-port-service.yml
 ### Create Web Deployment
 
 ```shell
-kubectl apply -f web/deployment.yml
+kubectl apply -f web/deployment.yaml
 ```
 
 ## Access Pods with Ingress Controller + Cluster IP
@@ -45,7 +45,7 @@ kubectl apply -f mongo/persistent-volume-claim.yml
 ### Create Mongo Deployment
 
 ```shell
-kubectl apply -f mongo/deployment.yml
+kubectl apply -f mongo/deployment.yaml
 ```
 
 ### Create Mongo Cluster IP Service
@@ -57,7 +57,7 @@ kubectl apply -f mongo/cluster-ip-service.yml
 ### Create API Deployment
 
 ```shell
-kubectl apply -f api/deployment.yml
+kubectl apply -f api/deployment.yaml
 ```
 
 ### Create API Cluster IP Service
@@ -69,7 +69,7 @@ kubectl apply -f api/cluster-ip-service.yml
 ### Create Web Deployment
 
 ```shell
-kubectl apply -f web/deployment.yml
+kubectl apply -f web/deployment.yaml
 ```
 
 ### Create Web Cluster IP Service
